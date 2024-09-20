@@ -1,0 +1,28 @@
+body {
+  margin: 0; /* Remove default body margin */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  margin-top: 20px;
+}
+
+button {
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
